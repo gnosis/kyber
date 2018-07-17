@@ -3,8 +3,8 @@ package ecies
 import (
 	"testing"
 
-	"github.com/dedis/kyber/group/edwards25519"
-	"github.com/dedis/kyber/util/random"
+	"github.com/gnosis/kyber/group/edwards25519"
+	"github.com/gnosis/kyber/util/random"
 	"github.com/stretchr/testify/require"
 )
 

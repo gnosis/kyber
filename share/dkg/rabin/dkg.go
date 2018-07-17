@@ -41,11 +41,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/sign/schnorr"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/sign/schnorr"
 
-	"github.com/dedis/kyber/share"
-	vss "github.com/dedis/kyber/share/vss/rabin"
+	"github.com/gnosis/kyber/share"
+	vss "github.com/gnosis/kyber/share/vss/rabin"
 )
 
 // Suite wraps the functionalities needed by the dkg package

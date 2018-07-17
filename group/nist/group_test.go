@@ -5,7 +5,7 @@ package nist
 import (
 	"testing"
 
-	"github.com/dedis/kyber/util/test"
+	"github.com/gnosis/kyber/util/test"
 )
 
 var testQR512 = NewBlakeSHA256QR512()

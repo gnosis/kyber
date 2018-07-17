@@ -3,7 +3,7 @@
 package blake2xb
 
 import (
-	"github.com/dedis/kyber"
+	"github.com/gnosis/kyber"
 	"golang.org/x/crypto/blake2b"
 )
 

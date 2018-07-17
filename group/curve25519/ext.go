@@ -8,9 +8,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/internal/marshalling"
-	"github.com/dedis/kyber/group/mod"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/group/internal/marshalling"
+	"github.com/gnosis/kyber/group/mod"
 )
 
 type extPoint struct {

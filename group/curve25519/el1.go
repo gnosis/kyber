@@ -7,7 +7,7 @@ import (
 	//"encoding/hex"
 	"crypto/cipher"
 
-	"github.com/dedis/kyber/group/mod"
+	"github.com/gnosis/kyber/group/mod"
 )
 
 func chi(r, v *mod.Int) {

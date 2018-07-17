@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/dedis/kyber"
+	"github.com/gnosis/kyber"
 )
 
 // ReadHexPoint reads a point from r in hex representation.

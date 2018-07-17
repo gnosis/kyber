@@ -5,9 +5,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/xof/blake2xb"
-	"github.com/dedis/kyber/xof/keccak"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/xof/blake2xb"
+	"github.com/gnosis/kyber/xof/keccak"
 	"github.com/stretchr/testify/require"
 )
 

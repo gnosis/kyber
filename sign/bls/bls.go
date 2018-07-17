@@ -7,8 +7,8 @@ import (
 	"crypto/cipher"
 	"errors"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/pairing"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/pairing"
 )
 
 // NewKeyPair creates a new BLS signing key pair. The private key x is a scalar

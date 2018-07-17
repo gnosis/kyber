@@ -9,9 +9,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/internal/marshalling"
-	"github.com/dedis/kyber/util/random"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/group/internal/marshalling"
+	"github.com/gnosis/kyber/util/random"
 )
 
 var one = big.NewInt(1)

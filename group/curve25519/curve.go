@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/mod"
-	"github.com/dedis/kyber/util/random"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/group/mod"
+	"github.com/gnosis/kyber/util/random"
 )
 
 var zero = big.NewInt(0)

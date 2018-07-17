@@ -1,6 +1,6 @@
 all: test
 
-PKG_STABLE = gopkg.in/dedis/kyber.v2
+PKG_STABLE = gopkg.in/gnosis/kyber.v2
 include $(shell go env GOPATH)/src/github.com/dedis/Coding/bin/Makefile.base
 
 # You can use `test_playground` to run any test or part of cothority

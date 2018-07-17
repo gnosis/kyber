@@ -6,8 +6,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/mod"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/group/mod"
 )
 
 type pointG1 struct {

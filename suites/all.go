@@ -1,7 +1,7 @@
 package suites
 
 import (
-	"github.com/dedis/kyber/group/edwards25519"
+	"github.com/gnosis/kyber/group/edwards25519"
 )
 
 func init() {

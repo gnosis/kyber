@@ -20,8 +20,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/internal/marshalling"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/group/internal/marshalling"
 )
 
 type point struct {

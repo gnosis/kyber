@@ -17,7 +17,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dedis/kyber"
+	"github.com/gnosis/kyber"
 )
 
 // Suite represents the set of functionalities needed by the package schnorr.

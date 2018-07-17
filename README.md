@@ -1,14 +1,16 @@
-[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://godoc.org/github.com/dedis/kyber)
-[![Build Status](https://travis-ci.org/dedis/kyber.svg?branch=master)](https://travis-ci.org/dedis/kyber)
+[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://godoc.org/github.com/gnosis/kyber)
+[![Build Status](https://travis-ci.org/gnosis/kyber.svg?branch=master)](https://travis-ci.org/gnosis/kyber)
 
-DEDIS Advanced Crypto Library for Go
-====================================
+Gnosis fork of DEDIS Advanced Crypto Library for Go
+===================================================
+
+This is a fork of [DEDIS' kyber library](https://github.com/dedis/kyber).
 
 This package provides a toolbox of advanced cryptographic primitives for Go,
 targeting applications like [Cothority](https://github.com/dedis/cothority)
 that need more than straightforward signing and encryption.
 Please see the
-[Godoc documentation for this package](http://godoc.org/github.com/dedis/kyber)
+[Godoc documentation for this package](http://godoc.org/github.com/gnosis/kyber)
 for details on the library's purpose and API functionality.
 
 Versioning - Development
@@ -18,7 +20,7 @@ With the new interface in the kyber-library we use the following development
 model:
 
 * crypto.v0 was the previous semi-stable version. See
-  [migration notes](https://github.com/dedis/kyber/wiki/Migration-from-gopkg.in-dedis-crypto.v0).
+  [migration notes](https://github.com/gnosis/kyber/wiki/Migration-from-gopkg.in-dedis-crypto.v0).
 * kyber.v1 never existed, in order to keep kyber, onet and cothorithy versions linked
 * kyber.v2 is the stable version
 * the master branch of kyber is the development version
@@ -28,7 +30,7 @@ to time. If you need something that doesn't change in a backward-compatible
 way you should do:
 
 ```
-   import "gopkg.in/dedis/kyber.v2"
+   import "gopkg.in/gnosis/kyber.v2"
 ```
 
 Installing
@@ -40,8 +42,8 @@ The basic crypto library requires only Go and a few
 third-party Go-language dependencies that can be installed automatically
 as follows:
 
-	go get github.com/dedis/kyber
-	cd "$(go env GOPATH)/src/github.com/dedis/kyber"
+	go get github.com/gnosis/kyber
+	cd "$(go env GOPATH)/src/github.com/gnosis/kyber"
 	go get -t ./... # install 3rd-party dependencies
 
 You should then be able to test its basic function as follows:
@@ -71,7 +73,7 @@ And you can test the vartime packages with:
 When a given implementation provides both constant time and variable time
 operations, the constant time operations are used in preference to the variable
 time ones, in order to reduce the risk of timing side-channel attack.
-See [AllowsVarTime](https://godoc.org/gopkg.in/dedis/kyber.v1#AllowsVarTime) for how
+See [AllowsVarTime](https://godoc.org/gopkg.in/gnosis/kyber.v1#AllowsVarTime) for how
 to opt-in to variable time implementations when it is safe to do so.
 
 A note on deriving shared secrets

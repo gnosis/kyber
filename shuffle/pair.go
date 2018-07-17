@@ -24,9 +24,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/proof"
-	"github.com/dedis/kyber/util/random"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/proof"
+	"github.com/gnosis/kyber/util/random"
 )
 
 // Suite wraps the functionalities needed by the shuffle/ package. These are the

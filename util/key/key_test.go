@@ -4,8 +4,8 @@ import (
 	"crypto/cipher"
 	"testing"
 
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/group/edwards25519"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/group/edwards25519"
 )
 
 func TestNewKeyPair(t *testing.T) {

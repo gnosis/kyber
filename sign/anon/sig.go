@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/dedis/kyber"
+	"github.com/gnosis/kyber"
 )
 
 // unlinkable ring signature

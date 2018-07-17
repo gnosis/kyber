@@ -8,9 +8,9 @@ import (
 	"reflect"
 
 	"github.com/dedis/fixbuf"
-	"github.com/dedis/kyber"
-	"github.com/dedis/kyber/util/random"
-	"github.com/dedis/kyber/xof/blake2xb"
+	"github.com/gnosis/kyber"
+	"github.com/gnosis/kyber/util/random"
+	"github.com/gnosis/kyber/xof/blake2xb"
 )
 
 // Suite implements the pairing.Suite interface for the BN256 bilinear pairing.

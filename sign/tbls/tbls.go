@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/dedis/kyber/pairing"
-	"github.com/dedis/kyber/share"
-	"github.com/dedis/kyber/sign/bls"
+	"github.com/gnosis/kyber/pairing"
+	"github.com/gnosis/kyber/share"
+	"github.com/gnosis/kyber/sign/bls"
 )
 
 // SigShare encodes a threshold BLS signature share Si = i || v where the 2-byte

@@ -3,8 +3,8 @@ package bn256
 import (
 	"testing"
 
-	"github.com/dedis/kyber/group/mod"
-	"github.com/dedis/kyber/util/random"
+	"github.com/gnosis/kyber/group/mod"
+	"github.com/gnosis/kyber/util/random"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/bn256"
 )

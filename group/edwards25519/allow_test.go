@@ -5,7 +5,7 @@ package edwards25519
 import (
 	"testing"
 
-	"github.com/dedis/kyber"
+	"github.com/gnosis/kyber"
 )
 
 func TestNotVartime(t *testing.T) {
